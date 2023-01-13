@@ -7,13 +7,6 @@
         display: flex;
         justify-content: space-between;
     }
-    .title {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 60px;
-        font-weight: 700;
-        font-size: 30px;  
-    }
     &__item {
         display: flex;
         flex-direction: column;
