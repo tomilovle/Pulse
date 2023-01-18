@@ -1,0 +1,32 @@
+.reviews {
+    min-height: 940px;
+    margin-bottom: 50px;
+    &__item {
+        display: flex;
+        margin-top: 60px;
+        img {
+            height: 169px;
+            margin-right: 60px;
+        }
+    }
+    &__text {
+        width: 670px;
+        color: #0D0D0D;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__count {
+        color: #646464;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 10px;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
