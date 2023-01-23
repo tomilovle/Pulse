@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
-
 </head>
 <body>
 
@@ -66,7 +66,7 @@
     <section class="advantages">
         <div class="container">
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
-            <div class="advantages__wrapper">
+            <div class="advantages__wrapper ">
                 <div class="advantages__item">
                     <div class="advantages__icon">
                         <img src="icons/advantges/cup.png" alt="cup">
@@ -95,13 +95,13 @@
     <section class="consultation">
         <div class="container">
             <div class="consultation__wrapper">
-                <h2 class="title title_left">
+                <h2 class="title title_left wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                     Получите бесплатную консультацию<br>по подбору пульсометра 
                 </h2>
-                <div class="consultation__descr">
+                <div class="consultation__descr wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                     Просто заполните форму заявки<br>и мы перезвоним вам в течении 10 минут
                 </div>
-                <form id="consultation-form" class="feed-form" action="#">
+                <form id="consultation-form" class="feed-form wow animate__fadeIn"  data-wow-duration="1.5s" data-wow-delay="0.3s"action="#">
                     <input name="name" required placeholder="Ваше имя" type="text">
                     <input name="phone" required placeholder="Ваш телефон">
                     <input name="email" required placeholder="Ваш E-mail" type="email">
@@ -133,7 +133,7 @@
             </ul>
 
             <div class="catalog__content catalog__content_active">
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content  catalog-item__content_active">
                             <img src="img/pulsometr.png" alt="pulsometr" class="catalog-item__img">
@@ -167,7 +167,7 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content  catalog-item__content_active">
                             <img src="img/pulsometr.png" alt="pulsometr" class="catalog-item__img">
@@ -201,7 +201,7 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content  catalog-item__content_active">
                             <img src="img/pulsometr.png" alt="pulsometr" class="catalog-item__img">
@@ -235,7 +235,7 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content  catalog-item__content_active">
                             <img src="img/pulsometr.png" alt="pulsometr" class="catalog-item__img">
@@ -269,7 +269,7 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content  catalog-item__content_active">
                             <img src="img/pulsometr.png" alt="pulsometr" class="catalog-item__img">
@@ -303,7 +303,7 @@
                         <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
-                <div class="catalog-item">
+                <div class="catalog-item wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <img src="img/pulsometr.png" alt="pulsometr" class="catalog-item__img">
@@ -450,7 +450,7 @@
     <secttion class="reviews">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="reviews__item">
+            <div class="reviews__item wow animate__fadeInUp">
                 <img src="img/reviews_photo/photo_1.png" alt="Ирина Иванченко ">
                 <div class="reviews__text">
                     <div class="reviews__subtitle">Ирина Иванченко </div>
@@ -463,7 +463,7 @@
                 </div>
                 
             </div>
-            <div class="reviews__item">
+            <div class="reviews__item wow animate__fadeInUp">
                 <img src="img/reviews_photo/photo_2.png" alt="Иван Сёмочкин">
                 <div class="reviews__text">
                     <div class="reviews__subtitle">Иван Сёмочкин</div>
@@ -475,7 +475,7 @@
                 </div>
                 
             </div>
-            <div class="reviews__item">
+            <div class="reviews__item wow animate__fadeInUp">
                 <img src="img/reviews_photo/photo_3.png" alt="Юлия Дашкина">
                 <div class="reviews__text">
                     <div class="reviews__subtitle">Юлия Дашкина</div>
@@ -543,6 +543,7 @@
     <script src="js/tiny-slider.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
