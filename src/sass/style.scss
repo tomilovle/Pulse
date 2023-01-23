@@ -5,6 +5,10 @@
     font-family: 'MuseoSansCyrl', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     position: relative;
     max-width: 950px;

@@ -44,6 +44,10 @@
             text-decoration: none;
             border-radius: 100%;
             margin: 0 13px; 
+            transition: 0.2s;
+            &:hover {
+                background: #b80202;
+            }
             img {
                 position: absolute;
                 transform: translate(-50%, -50%);
