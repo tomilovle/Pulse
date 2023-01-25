@@ -1,3 +1,8 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/tiny-slider';
+@import 'libs/animate.min';
+
 @import 'base/variables';
 @import 'base/animations';
 
@@ -5,9 +10,9 @@
     font-family: 'MuseoSansCyrl', sans-serif;
 }
 
-// html {
-//     scroll-behavior: smooth;
-// }
+html {
+    scroll-behavior: smooth;
+}
 
 .container {
     position: relative;
